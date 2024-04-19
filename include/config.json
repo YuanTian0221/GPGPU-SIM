@@ -1,0 +1,21 @@
+{
+    "project": {
+      "name": "MyProject",
+      "version": "1.0.0",
+      "author": "John Doe",
+      "output": "build/myproject",
+      "test": 2
+    },
+    "build": {
+      "compiler": "g++",
+      "flags": ["-Wall", "-O2"],
+      "include_dirs": ["include"],
+      "source_files": ["src/main.cpp", "src/utils.cpp"]
+    },
+    "dependencies": {
+      "libraries": ["lib1", "lib2"],
+      "include_dirs": ["deps/include"],
+      "lib_dirs": ["deps/lib"]
+    }
+  }
+  
